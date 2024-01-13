@@ -1,8 +1,31 @@
-body {
-  padding-top: 3rem;
-  color: #5a5a5a;
+.container{
+    max-width: 2500px !important;
 }
-main{
-  min-height: 85vh;/*footer függő*/
+.center{
+    height: 78.01vh !important;
 }
+.row, .row>* {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.sarok{
+    width:15vw;
+}
+.oszlop_bal{
+    width:15vw !important;
+    background-color: aqua;
+}
+.oszlop_jobb{
+    width:15vw !important;
+    background-color: aqua;
 
+}
+.oszlop_kozep{
+    width:fit-content!important;
+    background-color: rgb(28, 148, 148);
+}
+@media only screen and (max-width: 900px) {
+    .sarok,.oszlop{
+        width:10vw;
+    }
+  }

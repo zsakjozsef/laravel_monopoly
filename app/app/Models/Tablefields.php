@@ -7,12 +7,16 @@ class Tablefields extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'number',
-        'color',
-        'title',
-        'price',
-        'description',
-        'image',
+        'szam',
+        'nev',
+        'leiras',
+        'tipus',
+        'ar',
+        'tulajdonos_id',
+        'haz',
+        'szalloda',
+        'szin',
+        'kep'
     ];
 }
 
