@@ -2,7 +2,8 @@
     max-width: 2500px !important;
 }
 .center{
-    height: 78.01vh !important;
+    /*min-height: 78vh !important;*/
+    min-height: calc(76vh + 1rem) !important;/*EZT MAJD PONOSÍTANI KELL*/
 }
 .row, .row>* {
     padding-left: 0px !important;
@@ -13,19 +14,46 @@
 }
 .oszlop_bal{
     width:15vw !important;
-    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+.oszlop_bal_elem {
+    flex-grow: 1;
 }
 .oszlop_jobb{
     width:15vw !important;
-    background-color: aqua;
-
+    display: flex;
+    flex-direction: column;
+}
+.oszlop_jobb_elem {
+    flex-grow: 1;
 }
 .oszlop_kozep{
-    width:fit-content!important;
-    background-color: rgb(28, 148, 148);
+    /*width:fit-content!important;*/
 }
 @media only screen and (max-width: 900px) {
-    .sarok,.oszlop{
+    .sarok{
         width:10vw;
     }
-  }
+}
+
+.mezo_nev{
+    font-size: 10px;
+}
+.mezo_ar{
+    font-size: 8px;
+}
+
+
+
+.bottom_info 
+{
+
+    height: auto;
+}
+.bottom_info p
+{
+    color:azure;
+    justify-self:end;
+    font-size: 12px;
+}

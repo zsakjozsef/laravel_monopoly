@@ -242,7 +242,7 @@ class TablefieldsSeeder extends Seeder
             'tulajdonos_id' => 0,
             'haz' => 0,
             'szalloda' => 0,
-            'szin' => '',
+            'szin' => '#FFC000',
             'kep' => '',
             'created_at' => NULL,
             'updated_at' => NULL,
